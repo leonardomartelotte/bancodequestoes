@@ -23,8 +23,12 @@ O projeto é Open-Source de iniciativa dos alunos de Sistemas de Informação em
 
 4. Inicialize o servidor
 
-		$ php artisan server
+	$ php artisan serve
 
-5. Use o navegador, vá para `http://localhost:8000` e have fun:
+5. Use o navegador, vá para `http://localhost:8000` e have fun.
+
+6. Caso tenha dificuldade para rodar o programa, renomeie o arquivo .env.example to .env e execute o comando
+
+	$php artisan key:generate
 
 Sinta-se a vontade para forkar e contrubuir para este projeto.
